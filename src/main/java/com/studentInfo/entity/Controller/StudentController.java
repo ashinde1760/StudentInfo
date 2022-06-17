@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.studentInfo.entity.Student;
 
 @RestController
+@CrossOrigin("*")
 public class StudentController {
 
 	@Autowired
